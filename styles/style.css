@@ -188,30 +188,37 @@ main {
 
 .maldives {
     grid-column: 1/span 6;
+    position: relative;
 }
 
 .indonesia {
     grid-column: 7/span 6;
+    position: relative;
 }
 
 .sri-lanka {
     grid-column: 1/span 4;
+    position: relative;
 }
 
 .america {
     grid-column: 5/span 5;
+    position: relative;
 }
 
 .kashmir {
     grid-column: 10/span 3;
+    position: relative;
 }
 
 .bangladesh {
     grid-column: 1/span 5;
+    position: relative;
 }
 
 .bandarban {
     grid-column: 6/span 7;
+    position: relative;
 }
 
 .destination-item img {
@@ -220,7 +227,69 @@ main {
     object-fit: cover;
     border-radius: 10px;
 }
-
+.maldives div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.indonesia div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sri-lanka div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.america div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.kashmir div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bangladesh div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bandarban div{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* choose section styles */
 
 .choose-section {
@@ -321,14 +390,22 @@ main {
 .discount {
     text-align: center;
     max-width: 200px;
+    width: auto;
     padding: 15px 10px;
     border-radius: 5px;
     background: #FF5400;
     color: #FFFFFF;
     position: absolute;
-    bottom: 10%;
-    left: 69%;
+    bottom: 11%;
+    right: 2%;
     transform: rotate(-22deg);
+}
+.discount p{
+    font-size: 1.1rem;
+}
+.discount h4{
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 /* footer section styles */
@@ -468,9 +545,7 @@ main {
     .newsletter-img {
         width: 100%;
     }
-    .discount{
-        bottom: 12%;
-        left: 57%;
-        transform: rotate(-20deg);
+    .footer-section{
+        padding: 20px;
     }
 }
