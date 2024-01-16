@@ -323,6 +323,33 @@ main {
     color: #5A5A5D;
 }
 
+/* booking section styles */
+
+.booking-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.booking-section p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131318;
+    margin-bottom: 20px;
+}
+.booking-section button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: #FF5400;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 /* newsletter section styles */
 
 .newsletter-section {
@@ -531,7 +558,10 @@ main {
     .bandarban {
         grid-column: 1/span 1;
     }
-
+    .booking-section p{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
     .newsletter-section {
         flex-direction: column;
     }
