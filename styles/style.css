@@ -20,6 +20,7 @@ main {
     color: #FFFFFF;
     font-size: 1.25rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /* nav section styles */
@@ -118,6 +119,7 @@ main {
     color: #FFFFFF;
     font-weight: 700;
     border: none;
+    cursor: pointer;
 }
 
 /* popular tours section styles */
@@ -296,6 +298,7 @@ main {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 1.1rem;
+    cursor: pointer;
 }
 
 .newsletter-form input {
